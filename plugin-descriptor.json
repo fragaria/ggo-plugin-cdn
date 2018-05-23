@@ -1,0 +1,46 @@
+{
+  "plugins": [
+    {
+      "id": "rn.saifu.paystory",
+      "version": "1.0",
+      "minSdkVersion": "1.0",
+      "name": "Saifu Paystory Plugin",
+      "description": "Saifu Paystory Plugin",
+      "bundle": {
+        "type": "react",
+        "bundleUrl": "https://fragaria.github.io/ggo-plugin-cdn/plugin-paystory/deva.js",
+        "bundleChecksum": "abcd"
+      },
+      "whitelistedResources": ["*"],
+      "supportedContexts": ["widget", "fullscreen", "transactionDetail"]
+    },
+    {
+      "id": "rn.saifu.cat",
+      "version": "1.0",
+      "minSdkVersion": "1.0",
+      "name": "Saifu Category Plugin",
+      "description": "Saifu Categorization Plugin",
+      "bundle": {
+        "type": "react",
+        "bundleUrl": "https://fragaria.github.io/ggo-plugin-cdn/plugin-category/deva.js",
+        "bundleChecksum": "abcd"
+      },
+      "whitelistedResources": ["*"],
+      "supportedContexts": ["widget", "fullscreen", "transactionDetail"]
+    },
+    {
+      "id": "rn.saifu.ack",
+      "version": "1.0",
+      "minSdkVersion": "1.0",
+      "name": "Saifu Acknowledge Plugin",
+      "description": "Saifu Acknowledge Plugin",
+      "bundle": {
+        "type": "react",
+        "bundleUrl": "https://fragaria.github.io/ggo-plugin-cdn/plugin-ack/uat1.js",
+        "bundleChecksum": "abcd"
+      },
+      "whitelistedResources": ["*"],
+      "supportedContexts": ["widget", "fullscreen", "transactionDetail"]
+    }
+  ]
+}
