@@ -12,7 +12,7 @@
         "bundleChecksum": "abcd"
       },
       "whitelistedResources": ["*"],
-      "supportedContexts": ["widget", "fullscreen", "transactionDetail"]
+      "supportedContexts": ["Widget", "App", "fullscreen", "transactionDetail"]
     },
     {
       "id": "rn.saifu.cat",
@@ -26,7 +26,7 @@
         "bundleChecksum": "abcd"
       },
       "whitelistedResources": ["*"],
-      "supportedContexts": ["widget", "fullscreen", "transactionDetail"]
+      "supportedContexts": ["Widget", "App", "fullscreen", "transactionDetail"]
     },
     {
       "id": "rn.saifu.ack",
@@ -40,7 +40,7 @@
         "bundleChecksum": "abcd"
       },
       "whitelistedResources": ["*"],
-      "supportedContexts": ["widget", "fullscreen", "transactionDetail"]
+      "supportedContexts": ["Widget", "App", "fullscreen", "transactionDetail"]
     }
   ]
 }
