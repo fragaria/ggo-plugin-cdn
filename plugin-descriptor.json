@@ -26,7 +26,7 @@
         "bundleChecksum": "abcd"
       },
       "whitelistedResources": ["*"],
-      "supportedContexts": ["Widget", "App", "TransactionDetail"]
+      "supportedContexts": ["Widget", "App"]
     },
     {
       "id": "rn.saifu.ack",
