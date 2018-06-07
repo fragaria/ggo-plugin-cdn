@@ -41,6 +41,20 @@
       },
       "whitelistedResources": ["*"],
       "supportedContexts": ["Widget", "App"]
+    },
+    {
+      "id": "rn.saifu.rating",
+      "version": "1.0",
+      "minSdkVersion": "1.0",
+      "name": "Saifu Rating Plugin",
+      "description": "Saifu Rating Plugin",
+      "bundle": {
+        "type": "react",
+        "bundleUrl": "https://fragaria.github.io/ggo-plugin-cdn/plugin-rating/deva.js",
+        "bundleChecksum": "abcd"
+      },
+      "whitelistedResources": ["*"],
+      "supportedContexts": ["TransactionDetail"]
     }
   ]
 }
