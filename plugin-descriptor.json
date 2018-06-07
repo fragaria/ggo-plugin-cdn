@@ -54,7 +54,7 @@
         "bundleChecksum": "abcd"
       },
       "whitelistedResources": ["*"],
-      "supportedContexts": ["TransactionDetail"]
+      "supportedContexts": ["Widget", "TransactionDetail"]
     }
   ]
 }
