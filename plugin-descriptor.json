@@ -2,13 +2,13 @@
   "plugins": [
     {
       "id": "rn.saifu.paystory",
-      "version": "1.0",
+      "version": "1.1",
       "minSdkVersion": "1.0",
       "name": "Saifu Paystory Plugin",
       "description": "Saifu Paystory Plugin",
       "bundle": {
         "type": "react",
-        "bundleUrl": "https://fragaria.github.io/ggo-plugin-cdn/plugin-paystory/deva.js",
+        "bundleUrl": "https://fragaria.github.io/ggo-plugin-cdn/plugin-paystory/rn_paystory_deva_1.1.0.js",
         "bundleChecksum": "abcd"
       },
       "whitelistedResources": ["*"],
