@@ -2,17 +2,32 @@
   "plugins": [
     {
       "id": "io.paystory.plugin.transactions",
-      "version": "1.41",
-      "minSdkVersion": "1.0",
-      "name": "Saifu Paystory Plugin",
-      "description": "Saifu Paystory Plugin",
-      "bundle": {
-        "type": "react",
-        "bundleUrl": "https://fragaria.github.io/ggo-plugin-cdn/plugin-paystory/rn_paystory_deva_1.4.1.js",
-        "bundleChecksum": "abcd"
+      "version":"1.4.2",
+      "minSdkVersion":"1.0.0",
+      "platform":"Android",
+      "type":"react",
+      "name":{
+        "cs":"Rozšířené transakce",
+        "en":"EN - Rozsirene transakce"
       },
-      "whitelistedResources": ["*"],
-      "supportedContexts": ["Widget", "TransactionDetail", "Settings"]
+      "company":{
+        "cs":"Paystory",
+        "en":"EN - Paystory"
+      },
+      "shortDescription":{
+        "cs":"V transakcích uvidíte seznam zboží a dokumenty k nákupu (faktury, lístky, apod.)",
+        "en":"EN - V transakcich uvidite seznam zbozi a dokumenty k nakupu (faktury, listky, apod.)"
+      },
+      "state":"notDownloaded",
+      "forceUpdate":true,
+      "bundle": {
+        "bundleUrl": "https://fragaria.github.io/ggo-plugin-cdn/plugin-paystory/rn_paystory_deva_1.4.2.js",
+        "bundleChecksum":null,
+        "assetsUrl":null,
+        "assetsChecksum":null
+      },
+      "supportedContexts":["TransactionDetail","Settings","Widget"],
+      "showInMenu":false
     },
     {
       "id": "rn.saifu.cat",
@@ -29,18 +44,36 @@
       "supportedContexts": ["Widget", "App"]
     },
     {
-      "id": "rn.saifu.ack",
-      "version": "1.2",
-      "minSdkVersion": "1.0",
-      "name": "Saifu Acknowledge Plugin",
-      "description": "Saifu Acknowledge Plugin",
-      "bundle": {
-        "type": "react",
-        "bundleUrl": "https://fragaria.github.io/ggo-plugin-cdn/plugin-ack/rn_ack_deva_1.2.0.js",
-        "bundleChecksum": "abcd"
+      "pluginKey":"cz.csas.atp.ack",
+      "version":"1.2.0",
+      "minSdkVersion":"1.0.0",
+      "platform":"Android",
+      "type":"react",
+      "name":{
+        "cs":"Děkovací obrazovka",
+        "en":"Thank you screen"
       },
-      "whitelistedResources": ["*"],
-      "supportedContexts": ["Widget", "App"]
+      "company":{
+        "cs":"ATP",
+        "en":"EN - ATP"
+      },
+      "shortDescription":{
+        "cs":"Obchodníci Vám mohou poděkovat za Váš nákup a nabídnou benefity přímo pro Vás.",
+        "en":"EN - Obchodníci Vám mohou poděkovat za Váš nákup a nabídnou benefity přímo pro Vás."
+      },
+      "state":"notDownloaded",
+      "forceUpdate":true,
+      "autoUpdate":"overWifi",
+      "licenseRevision" : 1,
+      "icon":"https://orig00.deviantart.net/856f/f/2009/145/0/8/google_chrome_icon_by_obinoobie.png",
+      "bundle":{
+        "bundleUrl":"https://fragaria.github.io/ggo-plugin-cdn/plugin-ack/rn_ack_deva_1.2.0.js",
+        "bundleChecksum":null,
+        "assetsUrl":null,
+        "assetsChecksum":null
+      },
+      "supportedContexts":["Widget", "App"],
+      "showInMenu":false
     },
     {
       "id": "rn.saifu.rating",
