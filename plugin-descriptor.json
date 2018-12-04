@@ -2,7 +2,7 @@
   "plugins": [
     {
       "id": "io.paystory.plugin.transactions",
-      "version":"1.4.3",
+      "version":"1.4.4",
       "minSdkVersion":"1.0.0",
       "platform":"Android",
       "type":"react",
@@ -21,7 +21,7 @@
       "state":"notDownloaded",
       "forceUpdate":true,
       "bundle": {
-        "bundleUrl": "https://fragaria.github.io/ggo-plugin-cdn/plugin-paystory/rn_paystory_deva_1.4.3.js",
+        "bundleUrl": "https://fragaria.github.io/ggo-plugin-cdn/plugin-paystory/rn_paystory_deva_1.4.4.js",
         "bundleChecksum":null,
         "assetsUrl":null,
         "assetsChecksum":null
